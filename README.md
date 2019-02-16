@@ -1,4 +1,5 @@
 A Programming Interview Question
+
 Given a list of at most N = 50,000,000 records (in CSV format), each record describes an usage period of a specific mobile phone number. Note that one phone number can occurs multiple times in this list, because of 2 reasons:
 
 This phone number can change from prepaid plan to postpaid plan, or vice versa, at anytime just by sending an SMS to the operator.
