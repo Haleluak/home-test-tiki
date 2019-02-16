@@ -14,7 +14,7 @@ PHONE_NUMBER,ACTIVATION_DATE,DEACTIVATION_DATE 0987000001,2016-03-01,2016-05-01 
 
 In this list, ACTIVATION_DATE and DEACTIVATION_DATE are represented with YYYY-MM-DD format. DEACTIVATION_DATE may be empty, which means that the phone is still being used by its current owner. From the given data, we want to find a list of unique phone numbers together with the actual activation date when its current owner started using it. Note that what we need is the first activation date of current owner, not previous owner, and not the date when current owner changes prepaid/postpaid plans. For example: The prepaid phone number 0987000001 was used by A from 2016-01-01 to 2016-03-01, then it was changed to postpaid. A continued using it until 2016-05-01 and stopped using this number. After 1 month, on 2016-06-01, this phone number was reused by B with prepaid plan. B used it until 2016-09-01 then changed to postpaid, and finally changed back to prepaid on 2016-12-01 and he's still using it until now. In this case, the actual activation date of current owner B of 0987000001 that we want to find is 2016-06-01.
 
-#Task  [Algorithm and coding]: Find the actual activation date of a phone number
+# Task  [Algorithm and coding]: Find the actual activation date of a phone number
 
 1. The first, each row we will check the file contains a duplicate of @phoneNumber
 2. get newLine and oldLine of @phoneNumber
@@ -22,5 +22,5 @@ In this list, ACTIVATION_DATE and DEACTIVATION_DATE are represented with YYYY-MM
   - Owner simply updated it's plan, we update deactivate date of our existing line when if newLine.activateDate > oldLine.activateDate and oldline.deactivateDate = new.activateDate.
   - Owner previously updated it's plan, we update activate date of our existing line when newLine.activateDate < oldline.activateDate and newline.deactivateDate = oldLine.activateDate.
   
-  #Run 
+# Run 
   go build
