@@ -3,7 +3,7 @@ package parser
 import (
 	"errors"
 	"fmt"
-	"github.com/Haleluak/home-test-tiki/core"
+	"home-test-tiki/core"
 	"strings"
 	"time"
 )

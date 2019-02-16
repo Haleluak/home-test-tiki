@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"github.com/Haleluak/home-test-tiki/core"
-	"github.com/Haleluak/home-test-tiki/util"
+	"home-test-tiki/core"
+	"home-test-tiki/util"
 	"os"
 	"sync"
 )

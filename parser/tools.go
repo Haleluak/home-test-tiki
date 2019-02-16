@@ -1,7 +1,7 @@
 package parser
 
 import ("strings"
-		"github.com/Haleluak/home-test-tiki/core")
+		"home-test-tiki/core")
 
 func getNumber(line string) string {
 	return line[0:core.PhoneNumberLength]

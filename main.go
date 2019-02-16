@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/Haleluak/home-test-tiki/core"
-	"github.com/Haleluak/home-test-tiki/parser"
-	"github.com/Haleluak/home-test-tiki/util"
+	"home-test-tiki/core"
+	"home-test-tiki/parser"
+	"home-test-tiki/util"
 	"os"
 )
 

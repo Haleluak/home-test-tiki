@@ -2,8 +2,8 @@ package util
 
 import (
 	"errors"
-	"github.com/Haleluak/home-test-tiki/core"
-	"github.com/Haleluak/home-test-tiki/file"
+	"home-test-tiki/core"
+	"home-test-tiki/file"
 	"os"
 	"strings"
 )

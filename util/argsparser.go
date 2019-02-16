@@ -2,7 +2,7 @@ package util
 
 import (
 	"errors"
-	"github.com/Haleluak/home-test-tiki/core"
+	"home-test-tiki/core"
 	"regexp"
 	"strconv"
 )
